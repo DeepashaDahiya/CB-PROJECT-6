@@ -1,0 +1,69 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #bdb2ff;
+    background-image: url(download.jpeg);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+header {
+    font-family:'Abril Fatface'," consolas", 'sans sarif'; 
+    background-color: #be95c4;
+    color: #001f3f;
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    font-size: 36px;
+    text-decoration:  rgb(242, 236, 241) underline;
+}
+
+h2{
+    color:#bcb8b1;
+}
+.container {
+    
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:#231942;
+   
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+iframe[src*="spotify"] {
+    margin: 20px 0;
+}
+.image {
+    margin: 10px;
+}
+#weatherSection {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #3a5f7c;
+}
+button{
+   margin: 10px;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 10%;
+   height: 10%;
+   background-color: antiquewhite;
+}
